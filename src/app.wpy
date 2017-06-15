@@ -57,7 +57,7 @@ export default class Main extends wepy.app {
 }
 </script>
 
-<style lang="scss">
+<style lang="less">
 .container {
   height: 100%;
   display: flex;

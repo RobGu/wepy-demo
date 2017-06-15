@@ -32,6 +32,6 @@
   </view>
 </template>
 
-<style type="scss">
+<style type="less">
   .group {}
 </style>

@@ -15,7 +15,7 @@
   </view>
 </template>
 
-<style lang="scss">
+<style lang="less">
   .panel {
     width: 100%;
     margin-top: 20rpx;

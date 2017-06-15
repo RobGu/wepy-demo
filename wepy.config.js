@@ -4,7 +4,7 @@ module.exports = {
   wpyExt: '.wpy',
   eslint: true,
   compilers: {
-    sass: {
+    less: {
       outputStyle: 'compressed'
     },
     babel: {
@@ -26,11 +26,11 @@ module.exports = {
 
 if (prod) {
   delete module.exports.compilers.babel.sourcesMap
-  // 压缩sass
-  // module.exports.compilers['sass'] = {outputStyle: 'compressed'}
+  // 压缩 less
+  // module.exports.compilers['less'] = {outputStyle: 'compressed'}
 
-  // sass
-  module.exports.compilers['sass'] = { compress: true }
+  // less
+  module.exports.compilers['less'] = { compress: true }
 
   // 压缩js
   module.exports.plugins = {

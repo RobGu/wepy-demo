@@ -23,7 +23,7 @@
   </view>
 </template>
 
-<style type="scss">
+<style type="less">
 .groupitem {
 }
 </style>

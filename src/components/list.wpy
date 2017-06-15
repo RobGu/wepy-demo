@@ -47,7 +47,7 @@
   </view>
 </template>
 
-<style lang="scss">
+<style lang="less">
   .mylist:odd {
     color: red;
   }

@@ -222,7 +222,7 @@
   </view>
 </template>
 
-<style lang="scss">
+<style lang="less">
   .userinfo {
     display: flex;
     flex-direction: column;
